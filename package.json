@@ -1,6 +1,29 @@
 {
   "name": "vue-playground",
   "version": "0.0.0",
+  "engines": {
+    "node": "12.x.x",
+    "npm": "6.x.x"
+  },
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stefanfrede/vuejs-playground.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vite",
+    "tailwindcss"
+  ],
+  "author": {
+    "name": "Stefan Frede",
+    "email": "stefan@frede.dev"
+  },
+  "private": true,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanfrede/vuejs-playground/issues"
+  },
   "browserslist": [
     "defaults"
   ],
@@ -14,6 +37,7 @@
     "*.{css,js,vue}": "stylelint",
     "*.{js,vue}": "eslint --fix"
   },
+  "sideEffects": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
