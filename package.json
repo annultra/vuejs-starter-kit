@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "engines": {
     "node": "15.x.x",
-    "npm": "6.x.x"
+    "npm": "7.x.x"
   },
   "main": "index.html",
   "repository": {
