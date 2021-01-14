@@ -39,7 +39,7 @@
     "*.{js,vue}": "eslint --fix"
   },
   "scripts": {
-    "dev": "NODE_ENV=development vite --open",
+    "dev": "NODE_ENV=development vite",
     "build": "NODE_ENV=production vite build",
     "lint": "run-s lint:*",
     "lint:eslint": "eslint --ext .js,.vue src/",

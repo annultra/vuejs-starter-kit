@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[context.production]
+  environment = { NODE_VERSION = "15.5.1", NODE_ENV = "production", RUBY_VERSION = "2.7.1" }
+
+[context.deploy-preview]
+  environment = { NODE_VERSION = "15.5.1", NODE_ENV = "production", RUBY_VERSION = "2.7.1" }
+
+[dev]
+  command = "npm run dev"
+  publish = "dist"
+  targetPort = 3000
+  port = 8080
+  framework = "#custom"
+  NODE_ENV = "development"
