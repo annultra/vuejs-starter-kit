@@ -39,10 +39,10 @@
     "*.{js,vue}": "eslint --fix"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "NODE_ENV=development vite --open",
+    "build": "NODE_ENV=production vite build",
     "lint": "run-s lint:*",
-    "lint:eslint": "eslint --ext .js --ext .vue src/",
+    "lint:eslint": "eslint --ext .js,.vue src/",
     "lint:stylelint": "stylelint src/**/*.css src/**/*.js src/**/*.vue",
     "validate": "run-s build lint",
     "setup": "npm install && npm run validate"
