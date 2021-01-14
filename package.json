@@ -1,14 +1,14 @@
 {
-  "name": "vue-playground",
+  "name": "vuejs-starter-kit",
   "version": "0.0.0",
   "engines": {
-    "node": "12.x.x",
+    "node": "15.x.x",
     "npm": "6.x.x"
   },
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git@github.com:stefanfrede/vuejs-playground.git"
+    "url": "git@github.com:stefanfrede/vuejs-starter-kit.git"
   },
   "keywords": [
     "vuejs",
@@ -22,9 +22,9 @@
   "private": true,
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stefanfrede/vuejs-playground/issues"
+    "url": "https://github.com/stefanfrede/vuejs-starter-kit/issues"
   },
-  "homepage": "https://vuejs-spielwiese.netlify.app/",
+  "homepage": "https://vuejs-starter-kit.netlify.app/",
   "browserslist": [
     "defaults"
   ],
@@ -39,8 +39,8 @@
     "*.{js,vue}": "eslint --fix"
   },
   "scripts": {
-    "dev": "NODE_ENV=development vite",
-    "build": "NODE_ENV=production vite build",
+    "dev": "vite",
+    "build": "vite build",
     "lint": "run-s lint:*",
     "lint:eslint": "eslint --ext .js,.vue src/",
     "lint:stylelint": "stylelint src/**/*.css src/**/*.js src/**/*.vue",
@@ -67,10 +67,10 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "vite": "^2.0.0-beta.27"
   },
   "dependencies": {
-    "vite": "^2.0.0-beta.27",
     "vue": "^3.0.5"
   }
 }
