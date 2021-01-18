@@ -18,7 +18,9 @@
             >Vite documentation</a
           >
         </p>
-        <h2 class="mt-12 mb-8 text-2xl text-gray-900 font-bold leading-tight">
+      </div>
+      <div class="text-lg text-gray-500 leading-relaxed">
+        <h2 class="mb-8 text-3xl font-bold text-gray-900 leading-tight">
           Installed Plugins
         </h2>
         <ul class="mb-6 space-x-4 flex">
@@ -37,7 +39,7 @@
             >
           </li>
         </ul>
-        <h2 class="mt-12 mb-8 text-2xl text-gray-900 font-bold leading-tight">
+        <h2 class="mt-14 mb-8 text-3xl font-bold text-gray-900 leading-tight">
           Essential Links
         </h2>
         <ul class="mb-6 space-x-4 flex">
@@ -77,7 +79,7 @@
             >
           </li>
         </ul>
-        <h2 class="mt-12 mb-8 text-2xl text-gray-900 font-bold leading-tight">
+        <h2 class="mt-14 mb-8 text-3xl font-bold text-gray-900 leading-tight">
           Ecosystem
         </h2>
         <ul class="space-x-4 flex">

@@ -10,6 +10,29 @@
   </title>
 
   <link rel="icon" href="/favicon.ico" />
+
+  <!-- Preconnect to the font file origin -->
+  <link
+    rel="preconnect"
+    href="https://rsms.me"
+    crossorigin
+  />
+
+  <!-- Preload the font stylesheet asynchronously with low priority -->
+  <link
+    rel="preload"
+    href="https://rsms.me/inter/inter.css"
+    as="style"
+  />
+
+  <!-- https://www.filamentgroup.com/lab/load-css-simpler/ -->
+  <link
+    crossorigin="anonymous"
+    rel="stylesheet"
+    href="https://rsms.me/inter/inter.css"
+    media="print"
+    onload="this.media='all'; this.onload=null;"
+  />
 </head>
 <body class="min-h-screen bg-white">
   <div id="app"></div>
