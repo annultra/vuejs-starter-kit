@@ -8,7 +8,8 @@
     @apply hover:text-green-600 text-base font-bold underline;
   }
 
-  .router-link[aria-current] {
+  .router-link--active,
+  .router-link--exact-active {
     @apply text-green-600;
   }
 }
