@@ -41,7 +41,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "dev": "vite",
-    "build": "NODE_ENV=production run-s clean build:*",
+    "build": "run-s clean build:*",
     "build:vite": "vite build",
     "build:sw": "workbox generateSW",
     "lint": "run-s lint:*",
