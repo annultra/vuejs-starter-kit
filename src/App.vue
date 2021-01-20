@@ -73,11 +73,11 @@ export default {
         },
         {
           property: 'og:image',
-          content: computed(() => `${data.url}/social-share.png`),
+          content: computed(() => `${data.url}social-share.png`),
         },
         {
           name: 'twitter:image',
-          content: computed(() => `${data.url}/social-share.png`),
+          content: computed(() => `${data.url}social-share.png`),
         },
         {
           property: 'og:image:alt',
